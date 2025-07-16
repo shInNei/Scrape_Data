@@ -1,0 +1,370 @@
+{
+  "routes": [
+    {
+      "id": "8e96ea5f-1b37-4795-89cf-0e018a44e371",
+      "sections": [
+        {
+          "id": "eb1e2726-9b44-4f81-9101-d87f2bf6a17d",
+          "type": "vehicle",
+          "actions": [
+            {
+              "action": "depart",
+              "duration": 17,
+              "length": 52,
+              "instruction": "Head southeast. Go for 52 m.",
+              "offset": 0
+            },
+            {
+              "action": "turn",
+              "duration": 30,
+              "length": 225,
+              "instruction": "Turn left. Go for 225 m.",
+              "offset": 1,
+              "direction": "left",
+              "severity": "quite"
+            },
+            {
+              "action": "turn",
+              "duration": 25,
+              "length": 22,
+              "instruction": "Turn right toward Duong To Hien Thanh. Go for 22 m.",
+              "offset": 6,
+              "direction": "right",
+              "severity": "quite"
+            },
+            {
+              "action": "turn",
+              "duration": 119,
+              "length": 513,
+              "instruction": "Turn left onto Duong To Hien Thanh. Go for 513 m.",
+              "offset": 7,
+              "direction": "left",
+              "severity": "quite"
+            },
+            {
+              "action": "continue",
+              "duration": 6,
+              "length": 23,
+              "instruction": "Continue on Hem 339 To Hien Thanh. Go for 23 m.",
+              "offset": 23
+            },
+            {
+              "action": "continue",
+              "duration": 4,
+              "length": 15,
+              "instruction": "Continue on Duong To Hien Thanh. Go for 15 m.",
+              "offset": 24
+            },
+            {
+              "action": "continue",
+              "duration": 16,
+              "length": 61,
+              "instruction": "Continue on Hem 278 To Hien Thanh. Go for 61 m.",
+              "offset": 25
+            },
+            {
+              "action": "continue",
+              "duration": 205,
+              "length": 934,
+              "instruction": "Continue on Duong To Hien Thanh. Go for 934 m.",
+              "offset": 27
+            },
+            {
+              "action": "turn",
+              "duration": 53,
+              "length": 227,
+              "instruction": "Turn left onto Duong Cach Mang Thang 8. Go for 227 m.",
+              "offset": 59,
+              "direction": "left",
+              "severity": "quite"
+            },
+            {
+              "action": "turn",
+              "duration": 4,
+              "length": 17,
+              "instruction": "Turn right onto Duong Tran Van Dang. Go for 17 m.",
+              "offset": 68,
+              "direction": "right",
+              "severity": "quite"
+            },
+            {
+              "action": "continue",
+              "duration": 36,
+              "length": 157,
+              "instruction": "Continue on Hem 436 Duong Tran Van Dang. Go for 157 m.",
+              "offset": 69
+            },
+            {
+              "action": "continue",
+              "duration": 1,
+              "length": 2,
+              "instruction": "Continue on Duong Tran Van Dang. Go for 2 m.",
+              "offset": 76
+            },
+            {
+              "action": "continue",
+              "duration": 10,
+              "length": 13,
+              "instruction": "Continue on Hem 436/75 Duong Tran Van Dang. Go for 13 m.",
+              "offset": 77
+            },
+            {
+              "action": "turn",
+              "duration": 15,
+              "length": 115,
+              "instruction": "Turn left onto Hem 239 Duong Tran Van Dang. Go for 115 m.",
+              "offset": 78,
+              "direction": "left",
+              "severity": "quite"
+            },
+            {
+              "action": "continue",
+              "duration": 5,
+              "length": 40,
+              "instruction": "Continue on Hem 239 Tran Van Dang. Go for 40 m.",
+              "offset": 81
+            },
+            {
+              "action": "continue",
+              "duration": 23,
+              "length": 120,
+              "instruction": "Continue on Hem 239 Duong Tran Van Dang. Go for 120 m.",
+              "offset": 83
+            },
+            {
+              "action": "turn",
+              "duration": 14,
+              "length": 20,
+              "instruction": "Turn right onto Duong Hoang Sa. Go for 20 m.",
+              "offset": 88,
+              "direction": "right",
+              "severity": "quite"
+            },
+            {
+              "action": "turn",
+              "duration": 24,
+              "length": 48,
+              "instruction": "Turn left onto Cau So 7. Go for 48 m.",
+              "offset": 89,
+              "direction": "left",
+              "severity": "quite"
+            },
+            {
+              "action": "turn",
+              "duration": 7,
+              "length": 42,
+              "instruction": "Turn left onto Duong Truong Sa. Go for 42 m.",
+              "offset": 91,
+              "direction": "left",
+              "severity": "quite"
+            },
+            {
+              "action": "turn",
+              "duration": 70,
+              "length": 402,
+              "instruction": "Turn right onto Hem 115 Le Van Sy. Go for 402 m.",
+              "offset": 93,
+              "direction": "right",
+              "severity": "quite"
+            },
+            {
+              "action": "turn",
+              "duration": 11,
+              "length": 53,
+              "instruction": "Turn left onto Duong Le Van Sy. Go for 53 m.",
+              "offset": 101,
+              "direction": "left",
+              "severity": "quite"
+            },
+            {
+              "action": "continue",
+              "duration": 1,
+              "length": 4,
+              "instruction": "Continue on Hem 137 Le Van Sy. Go for 4 m.",
+              "offset": 104
+            },
+            {
+              "action": "continue",
+              "duration": 29,
+              "length": 119,
+              "instruction": "Continue on Duong Le Van Sy. Go for 119 m.",
+              "offset": 105
+            },
+            {
+              "action": "turn",
+              "duration": 36,
+              "length": 196,
+              "instruction": "Turn right onto Hem 176 Le Van Sy. Go for 196 m.",
+              "offset": 106,
+              "direction": "right",
+              "severity": "quite"
+            },
+            {
+              "action": "turn",
+              "duration": 6,
+              "length": 44,
+              "instruction": "Turn left onto Hem 86 Duong Tran Huu Trang. Go for 44 m.",
+              "offset": 109,
+              "direction": "left",
+              "severity": "quite"
+            },
+            {
+              "action": "continue",
+              "duration": 2,
+              "length": 15,
+              "instruction": "Continue on Duong Tran Huu Trang. Go for 15 m.",
+              "offset": 110
+            },
+            {
+              "action": "continue",
+              "duration": 4,
+              "length": 30,
+              "instruction": "Continue on Hem 111 Duong Tran Huu Trang. Go for 30 m.",
+              "offset": 111
+            },
+            {
+              "action": "continue",
+              "duration": 2,
+              "length": 19,
+              "instruction": "Continue on Hem 84A Tran Huu Trang. Go for 19 m.",
+              "offset": 113
+            },
+            {
+              "action": "continue",
+              "duration": 5,
+              "length": 37,
+              "instruction": "Continue on Hem 84 Duong Tran Huu Trang. Go for 37 m.",
+              "offset": 114
+            },
+            {
+              "action": "continue",
+              "duration": 2,
+              "length": 15,
+              "instruction": "Continue on Hem 87 Duong Tran Huu Trang. Go for 15 m.",
+              "offset": 116
+            },
+            {
+              "action": "continue",
+              "duration": 12,
+              "length": 37,
+              "instruction": "Continue on Duong Tran Huu Trang. Go for 37 m.",
+              "offset": 117
+            },
+            {
+              "action": "turn",
+              "duration": 5,
+              "length": 34,
+              "instruction": "Turn left onto Duong Truong Quoc Dung. Go for 34 m.",
+              "offset": 119,
+              "direction": "left",
+              "severity": "quite"
+            },
+            {
+              "action": "continue",
+              "duration": 10,
+              "length": 78,
+              "instruction": "Continue on Hem 74/1 Truong Quoc Dung. Go for 78 m.",
+              "offset": 121
+            },
+            {
+              "action": "continue",
+              "duration": 7,
+              "length": 50,
+              "instruction": "Continue on Duong Truong Quoc Dung. Go for 50 m.",
+              "offset": 124
+            },
+            {
+              "action": "turn",
+              "duration": 1,
+              "length": 7,
+              "instruction": "Turn slightly right onto Hem 74 Truong Quoc Dung. Go for 7 m.",
+              "offset": 126,
+              "direction": "right",
+              "severity": "light"
+            },
+            {
+              "action": "continue",
+              "duration": 2,
+              "length": 14,
+              "instruction": "Continue on Hem 72 Truong Quoc Dung. Go for 14 m.",
+              "offset": 127
+            },
+            {
+              "action": "continue",
+              "duration": 40,
+              "length": 200,
+              "instruction": "Continue on Duong Truong Quoc Dung. Go for 200 m.",
+              "offset": 128
+            },
+            {
+              "action": "continue",
+              "duration": 42,
+              "length": 274,
+              "instruction": "Continue on Duong Truong Quoc Dung. Go for 274 m.",
+              "offset": 134
+            },
+            {
+              "action": "turn",
+              "duration": 21,
+              "length": 109,
+              "instruction": "Turn right onto Duong Hoang Van Thu. Go for 109 m.",
+              "offset": 140,
+              "direction": "right",
+              "severity": "quite"
+            },
+            {
+              "action": "arrive",
+              "duration": 0,
+              "length": 0,
+              "instruction": "Arrive at Duong Hoang Van Thu. Your destination is on the right.",
+              "offset": 143
+            }
+          ],
+          "departure": {
+            "time": "2025-07-15T19:53:56+07:00",
+            "place": {
+              "type": "place",
+              "location": {
+                "lat": 10.77342,
+                "lng": 106.65941
+              },
+              "originalLocation": {
+                "lat": 10.7735174,
+                "lng": 106.6595806
+              }
+            }
+          },
+          "arrival": {
+            "time": "2025-07-15T20:09:18+07:00",
+            "place": {
+              "type": "place",
+              "location": {
+                "lat": 10.7996515,
+                "lng": 106.6739716
+              },
+              "originalLocation": {
+                "lat": 10.799379,
+                "lng": 106.6739495
+              }
+            }
+          },
+          "summary": {
+            "duration": 922,
+            "length": 4383,
+            "baseDuration": 865
+          },
+          "travelSummary": {
+            "duration": 922,
+            "length": 4383,
+            "baseDuration": 865
+          },
+          "polyline": "BG46xxUkl_trG_YgPgUgoBoQ4c4DsJsT8f8BkDzK8GwMwH0K8G0FgF0KsJ0FsE4S4N4NgKsxB0oB4DkD8V0P0KgKkXsdgF0F4D0F4NoQgFsJoGoLgF8G8L0P4I8LwCkDoGwHsEoGgKwMsEoGsE0FgF8GsO8Q8fgoBsT0Z4Xsd0FsJ8QkXsY8fkI0KsOkS8G4IgF8GgF8GwH0KwM0P8G4IoB8BoQ8VkDsE0K4NsEoGwCkD8GsJwRwWgP0UoGwHoGnL0PjckN_YoGvMgF7L8BrEwHrOoB7BkDzFkI0FkD8B4I0FgP0KkNsJoQgK4N4IsE8BoBU0FgFgoBrT4I3D0KjDgKjD8LvC4NnBwRAsOoB4NwCwHwCrE0K4DoB8VkIoGrToBjDsd0FgPwCkhBkI0Z4Ikc8LkrB8VwWwMsOoG4IjNwHrJoB7BoB7B0oBr2BgoBoV8B4D7a03BkX4IkIwCkI4D8GsEwHwHkI4I0F8GgF8GsEoG8G8L8GA8LvCgFTwMvH8VnLwMzKgKnG4DUwHoBsJUkXoBkNoBgekDgPUoV4D8QkDgFU0K8B8uBoGkIoB0hC8GnBwRrEoV5B0W",
+          "language": "en-us",
+          "transport": {
+            "mode": "car"
+          }
+        }
+      ]
+    }
+  ]
+}

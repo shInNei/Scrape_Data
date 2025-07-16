@@ -1,0 +1,68 @@
+{
+  "routes": [
+    {
+      "weight_name": "auto",
+      "weight": 1799.234,
+      "duration": 1768.323,
+      "distance": 9394.648,
+      "legs": [
+        {
+          "via_waypoints": [],
+          "admins": [
+            {
+              "iso_3166_1": ""
+            }
+          ],
+          "weight": 1799.234,
+          "duration": 1768.323,
+          "steps": [],
+          "distance": 9394.648,
+          "summary": "Tô Hiến Thành, Đường Điện Biên Phủ"
+        }
+      ],
+      "geometry": "osopSgn`mjEbDqHwv@wg@_CaB}GyEgEaDkBwAgBqAwH_GmPgM}CsBmIqFaBgAsDaCaJuFiAy@_p@ie@s@g@cFuDyK}HaGiEgCkBsA_AIGg@s@{AwBm@}@gRiXqAkBiQcWoFyHoHoKsI_M^gCsOkToMkQ}FwHkDSg@w@oDuE{JyNcTe[cImMeR}VkVc\\{EmHaOeUeUo]uAuBgTu[yLyQmBoC{Zic@gN}RqRmXgBgCmC{DgPyUy@kAaSoY`J{S^{@xHmQ`DmHdA_CtIsR|E}KvKeW`KgUlCiGzFuMjFsN`J_RpBaE|I{ShD{HdDwHv@gBnF{LbEeJnHmQp@YlG{NM}@bCuFl@sAx@YpD{J~CuHtSud@hA{C~AoCjFuM~C_JfN{YtI_Sd@iAxEiLzEwKdHaPjEeKnFeMbF}LlTcj@|Aj@fBXdD?|Cq@hC}A~AsBz@kCVuCOuCa@cBs@yAaAoA{AkAxBsExVyj@j@qAcDgDuRyRmLuKs`@eb@nFcNvF}LdPa^mN_OuH}H_m@mn@m_@{a@mZo\\uEcFgNeO_UgVoTuUmNkO_m@gn@aHkHiPyP_UeVkl@wl@_w@kv@mc@wa@eD}Ce_@w]}_@__@aZeX}NqNcKwJwKwKoWmWyY{XoXkXkImIuMwMmBmBeH}Gi^{\\cDcDoKmKgFeFmYuWwC{CaIkHo\\{[ob@}a@aQqPyCgDkCsDwAaCmAgCgAiC@cAAy@IoAMcAYuASy@^a@Ri@HaAFw@@cCH}@V}@_Bf@yBXeDNw@[o@O}@Oq@EgEaCeCwB_GaF}DuC}r@eq@wGqGwTyTaCsBkWeTaAu@gHaBq^s\\q`@a_@ajAgfAugA}cA}YgYeTaUqPwRmQ}TsJiMwE_JkK{QaJ}PuJyQmEgJcFwLoD}JiGwTyE{PoBqKiDkJgFo_@cCsS}B}RgB{S[wDiByWIyOFwNJcYHsDj@aYtDk^rB_RxCiNxA_H~O}x@vJaa@~Ju[dMu\\~GwShZeu@AgCeAu@_Bi@cCdAiXpt@wJlUwL~[qSbz@wGaBi\\qJ_v@eReHoAiPqCiZgCaEa@ky@mAvCy`@hIww@bDaZbBcOvBsL~LqZ`Pgc@cVsGaIgEuC}AsKsGiLjf@"
+    },
+    {
+      "weight_name": "auto",
+      "weight": 2103.951,
+      "duration": 2076.431,
+      "distance": 9899.476,
+      "legs": [
+        {
+          "via_waypoints": [],
+          "admins": [
+            {
+              "iso_3166_1": ""
+            }
+          ],
+          "weight": 2103.951,
+          "duration": 2076.431,
+          "steps": [],
+          "distance": 9899.476,
+          "summary": "Tô Hiến Thành, Nguyễn Thị Minh Khai"
+        }
+      ],
+      "geometry": "osopSgn`mjEbDqHwv@wg@_CaB}GyEgEaDkBwAgBqAwH_GmPgM}CsBmIqFaBgAsDaCaJuFiAy@_p@ie@s@g@cFuDyK}HaGiEgCkBsA_AIGg@s@{AwBm@}@gRiXqAkBiQcWoFyHoHoKsI_M^gCsOkToMkQ}FwHkDSg@w@oDuE{JyNcTe[cImMeR}VkVc\\{EmHaOeUeUo]uAuBgTu[yLyQmBoC{Zic@gN}RqRmXgBgCmC{DgPyUy@kAaSoY`J{S^{@xHmQ`DmHdA_CtIsR|E}KvKeW`KgUlCiGzFuMjFsN`J_RpBaE|I{ShD{HdDwHv@gBnF{LbEeJnHmQp@YlG{NM}@bCuFl@sAx@YpD{J~CuHtSud@hA{C~AoCjFuM~C_JfN{YtI_Sd@iAxEiLzEwKdHaPjEeKnFeMbF}LlTcj@|Aj@fBXdD?|Cq@hC}A~AsBz@kCVuCOuCa@cBs@yAaAoA{AkAxBsExVyj@j@qAzAkDnIqR`CcBfHePZs@zCaH|AmDdYwn@hHsQ|IkS~@uBjBiEhDyH|@qBn@{ArJoTbLkWj@qAtI{R\\w@xB_FpCsGzAsDrAkDdI}Q|@uBzAiD^}@l@sApMoYvCyExA{FvCuGhZwo@|CqEfAuBfAuBaDyC}CwAyL{KgIuH_f@wd@o@o@uBoB{DmCsw@qt@qBPcAy@kEiEiD_DwUwSaQ}Oun@wj@i{@ex@sYmWmAgAie@eb@_BwAiz@qu@cgA}bAgjAieAsl@qk@qQmQeAM_Ay@cd@ya@sIiIsR{QgBqA_ImHgE}DiD_DwAsA}SyRaNiM}SaTmHcLeFeCg_@m]}AwAiT_SkAgAoPiO{CuCqK_KeCaC{U}Tui@_g@ySaSifAkbAcNoMgyA}sAiPeO}g@ge@kVgUkOqN_g@{d@}EmEsb@ea@gReKkHwB}K}CuEsAyKkDoS}F}GmBeK{C_XuHqXgFoFy@yM}BaJaBeQwC_KLqc@kBkEKwR_A}BMoGg@cNk@eKa@kKaAiGyBsGuDgDeDc@a@c@c@oEsFiAeBe@s@yDsGByEXs_@VwKk@oLrFqo@DqIxA_H~O}x@vJaa@~Ju[dMu\\~GwShZeu@AgCeAu@_Bi@cCdAiXpt@wJlUwL~[qSbz@wGaBi\\qJ_v@eReHoAiPqCiZgCaEa@ky@mAvCy`@hIww@bDaZbBcOvBsL~LqZ`Pgc@cVsGaIgEuC}AsKsGiLjf@"
+    }
+  ],
+  "waypoints": [
+    {
+      "distance": 136.248,
+      "name": "",
+      "location": [
+        106.660596,
+        10.772808
+      ]
+    },
+    {
+      "distance": 63.309,
+      "name": "Hẻm 24/11 Võ Oanh",
+      "location": [
+        106.719058,
+        10.804417
+      ]
+    }
+  ],
+  "code": "Ok",
+  "uuid": "wgzyNSHsF6bYJDVRKoXVxjXP-PcdBaWv-KG3FdWhfiHOlGA3osLCdg=="
+}

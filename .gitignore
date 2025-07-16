@@ -1,0 +1,5 @@
+.env
+cache
+data/pickle_data/trip_counter.pkl
+data/pickle_data/mapbox_request_counter.pkl
+nwk_hcm/

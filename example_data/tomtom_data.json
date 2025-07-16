@@ -1,0 +1,131 @@
+{
+  "formatVersion": "0.0.12",
+  "routes": [
+    {
+      "summary": {
+        "lengthInMeters": 12454,
+        "travelTimeInSeconds": 2199,
+        "trafficDelayInSeconds": 0,
+        "trafficLengthInMeters": 0,
+        "departureTime": "2025-07-16T09:46:26+07:00",
+        "arrivalTime": "2025-07-16T10:23:05+07:00",
+        "noTrafficTravelTimeInSeconds": 1828,
+        "historicTrafficTravelTimeInSeconds": 2199,
+        "liveTrafficIncidentsTravelTimeInSeconds": 2199
+      },
+      "legs": [
+        {
+          "summary": {
+            "lengthInMeters": 12454,
+            "travelTimeInSeconds": 2199,
+            "trafficDelayInSeconds": 0,
+            "trafficLengthInMeters": 0,
+            "departureTime": "2025-07-16T09:46:26+07:00",
+            "arrivalTime": "2025-07-16T10:23:05+07:00",
+            "noTrafficTravelTimeInSeconds": 1828,
+            "historicTrafficTravelTimeInSeconds": 2199,
+            "liveTrafficIncidentsTravelTimeInSeconds": 2199
+          },
+          "encodedPolyline": "{bw`Ay~~iS|E`Lw@Pe@HeARSDq@L_APeARUDkAR}Ch@ODkATeARyB`@{B`@}B`@Yi@a@e@cHiGgFqEMOkB}AcCqBICQMOIEC]]s@cAs@q@uAqAOOmAkAcC}B]YuBcBg@_@mH{GXo@`AyBh@mAj@qAXo@DI?OFODIHQBIP_@N_@p@{AP_@N_@Tg@JYJQ\\{@`@_AFMTe@^{@Rg@Pc@b@_A}@i@m@_@k@_@u@c@o@a@ECKGCCEGECy@QiB[a@Qu@_@aCaAR}@PaA^aBLi@H_@Le@XkAXo@tAcBDEz@gAt@cAXc@T]j@cA`@g@Vm@R_AH_@VaANYNOZ[\\c@JWBs@Ay@Ei@Ia@K[AAC_@@sA?u@@UG[KSGISUIIUQSOoB}@_A_@k@UCCAEAGAYHWVk@Vk@Te@\\w@@EHSXk@HUTw@FYfAuDgAWeAUOEMCc@CUBI@_AVYFUDE?a@CUCc@G]C[EmB]oEkAKEA?GCaBg@s@[m@[WWgB_B_@_@_A{@{@y@oAmAh@u@DEMICAACCYGa@CEE_@_@sDIy@Gq@YEg@DsBRgBPI@{ALkBRkALuCTKkAIaAAI@GI}@Ee@Ae@?I@SFc@F]HMTe@FGFK?IZc@l@cAf@gADQBQ?UCk@C_@AOCQEm@A[?_@DKDKDGHGDENGPCB?r@BVBL?R?NCPCFCNGPMLILQHMFQBKBU@]I}@CYEUUuA?I?IEgB?S?aADaBJoD@q@TWRWRSZ_@RUBCJMFHBBDBHDFBD?B?B?B?BABABC@A@C@?BI@I?KAKCKCKGKGIGIIECAEAGACAE@}AwAMMIIw@u@c@e@KIOQk@i@i@e@IIm@i@c@c@OK]UmH{GqJ_JyCuCw@{@g@o@{@mAcBaDm@oAa@eAm@uB[y@GSQgAI_@Ca@Ic@OwA?k@K_AAY?e@Cs@?cAFgCTuBFo@Li@\\sBl@gCVgAHUH[\\u@Z{@Ne@Rw@H[hBmEt@}Ax@eBt@yAb@{@N]b@{@FCHGBEZq@fAoBVe@??Bm@HsF?qCEm@Ms@MYOSOO[SWMCAIAM?S@I@G@OBm@Na@RMHGFa@f@@OFm@Ka@QSWU_@KSDI@gCnA}IbESLa@NyAr@mAl@gEpBsAp@a@RQLU^Kd@ABd@bA`@x@`@t@^t@ONCDAHr@^i@~B",
+          "encodedPolylinePrecision": 5
+        }
+      ],
+      "sections": [
+        {
+          "startPointIndex": 0,
+          "endPointIndex": 412,
+          "sectionType": "TRAVEL_MODE",
+          "travelMode": "car"
+        }
+      ]
+    },
+    {
+      "summary": {
+        "lengthInMeters": 15026,
+        "travelTimeInSeconds": 2391,
+        "trafficDelayInSeconds": 0,
+        "trafficLengthInMeters": 0,
+        "departureTime": "2025-07-16T09:46:26+07:00",
+        "arrivalTime": "2025-07-16T10:26:17+07:00",
+        "noTrafficTravelTimeInSeconds": 1962,
+        "historicTrafficTravelTimeInSeconds": 2391,
+        "liveTrafficIncidentsTravelTimeInSeconds": 2391,
+        "deviationDistance": 293,
+        "deviationTime": 65,
+        "deviationPoint": {
+          "latitude": 10.77227,
+          "longitude": 106.65763
+        }
+      },
+      "legs": [
+        {
+          "summary": {
+            "lengthInMeters": 15026,
+            "travelTimeInSeconds": 2391,
+            "trafficDelayInSeconds": 0,
+            "trafficLengthInMeters": 0,
+            "departureTime": "2025-07-16T09:46:26+07:00",
+            "arrivalTime": "2025-07-16T10:26:17+07:00",
+            "noTrafficTravelTimeInSeconds": 1962,
+            "historicTrafficTravelTimeInSeconds": 2391,
+            "liveTrafficIncidentsTravelTimeInSeconds": 2391
+          },
+          "encodedPolyline": "{bw`Ay~~iS|E`Lw@P@NbASn@M^GhDo@|@QjAShAU|Ba@dEu@|@QnAUv@Or@MZG|@Q^Ix@SjAUd@KvBa@@?tA_@NCv@OHA?AAEAEEGGSQa@Ym@_@u@Uk@MW[{@g@iAWi@g@eA_@q@GKYm@y@oBSe@a@_AMUaA{BIUWc@ACU_@g@kAaDeHEGgAgCKSqDgI]aAc@_AWu@[s@EK]w@Yo@Qa@Yk@]w@c@cAcAeCCGDEDGFEFEd@O~@[^KHCt@QNEt@SNEj@QVGb@OPE~@YNElA_@HH@@DBFBDBF?H?HAHC@AFEBC@CDI@I@I?CAIAGAAEGCCGGCABQLk@`AuEVgAp@}CBOTgADMBMTgADSXuAh@_C\\cBP{@R_A`@mBVwAJ?B?HAFCBAFGBADIBG?E@C?EAI?CzEyApA_@RGLEHCjBg@jCw@pEsAvIaCnBm@HCd@O`@Kz@U^MJC|@Wz@UnCs@ZOLEl@WdAc@r@_@ZWPMJIr@k@v@k@f@]`Aa@LGTIXIFC\\If@OFAt@QHAHCPCRGTEXG`ASD@DBBBBBFB@DFb@?F?HKTGBWBSGY]WYOOIKqAqAkBmBaA}@HZFFlAlA~A|AFP@LADAFKTMBQBs@NSEIEEEMMyGsGUIyC}CyFmHyC_EyAeCaCwEkB}DgAkBq@}@_B}A}@u@sDeCmGiEOKUOMMKKII[a@Ek@g@cAg@mAs@iBu@wAUc@}@qAU[QSEGEGSOWS]SwBoAsBmA_A_@_AaASYi@w@c@q@AAGEMIIAOAO@C?E@AEAAAAC?a@g@i@eBGU_AiDHe@OoACUCS?CCKCKIGIIg@OiB[MCM@KBULuAGOAq@Ca@Cg@CuEUwDOaBIm@AqAGK?q@Ak@AWAaBCq@IiC[sASAA{@OMWOKcCg@oB]cFeA_@IYAA?YBMDKBEBEDEFMTKDKFMNY\\{@x@mBpBa@f@GDO@KAICeCyBeFgEyAgAeAg@kBq@iEiAqAa@k@Q{@Uo@SUGo@Sa@MWOSKy@s@[c@[i@Wo@Mc@GYGs@Am@?m@LgBRkCP}AD_@H{@H_@JcAH}@?s@A{@Ky@Qw@Ma@Qg@EKCGGQCIM]e@gA_@u@Yc@][k@c@u@[u@Qg@IA?M?eAEy@CaAAmA?g@?cCAcHAe@Ec@Km@Sy@a@c@_@i@m@CEW_@cD{Eu@gA_@g@Dy@Bm@HsF?qCEm@Ms@MYOSOO[SWMCAIAM?S@I@G@OBm@Na@RMHGFa@f@@OFm@Ka@QSWU_@KSDI@gCnA}IbESLa@NyAr@mAl@gEpBsAp@a@RQLU^Kd@ABd@bA`@x@`@t@^t@ONCDAHr@^i@~B",
+          "encodedPolylinePrecision": 5
+        }
+      ],
+      "sections": [
+        {
+          "startPointIndex": 0,
+          "endPointIndex": 472,
+          "sectionType": "TRAVEL_MODE",
+          "travelMode": "car"
+        }
+      ]
+    },
+    {
+      "summary": {
+        "lengthInMeters": 11317,
+        "travelTimeInSeconds": 2506,
+        "trafficDelayInSeconds": 289,
+        "trafficLengthInMeters": 832,
+        "departureTime": "2025-07-16T09:46:26+07:00",
+        "arrivalTime": "2025-07-16T10:28:12+07:00",
+        "noTrafficTravelTimeInSeconds": 1642,
+        "historicTrafficTravelTimeInSeconds": 2331,
+        "liveTrafficIncidentsTravelTimeInSeconds": 2506,
+        "deviationDistance": 924,
+        "deviationTime": 149,
+        "deviationPoint": {
+          "latitude": 10.77778,
+          "longitude": 106.6561
+        }
+      },
+      "legs": [
+        {
+          "summary": {
+            "lengthInMeters": 11317,
+            "travelTimeInSeconds": 2506,
+            "trafficDelayInSeconds": 289,
+            "trafficLengthInMeters": 832,
+            "departureTime": "2025-07-16T09:46:26+07:00",
+            "arrivalTime": "2025-07-16T10:28:12+07:00",
+            "noTrafficTravelTimeInSeconds": 1642,
+            "historicTrafficTravelTimeInSeconds": 2331,
+            "liveTrafficIncidentsTravelTimeInSeconds": 2506
+          },
+          "encodedPolyline": "{bw`Ay~~iS|E`Lw@Pe@HeARSDq@L_APeARUDkAR}Ch@ODkATeARyB`@{B`@}B`@UDe@HYF_@FaEt@eARi@L_Cb@e@HkB\\kEx@}@NqE|@gCf@_@FuB`@sB`@{E|@uB`@gDn@a@Hi@JeARuAVsAZiA\\CAA?C?C?A?C@C@y@?_AGi@IgAUYK}@[_Bo@?Ak@Ys@a@w@e@}BmBg@Sm@o@_AaA[[s@s@QQ}@iA}BiC[[aCeCmAqAeBkBOGKIY[YWOMGKGQEEsAuAe@e@c@e@_@e@_@_@_AaAUUEGMECEOSSYc@U??@A@C@E?A?GAG?CCEEGACIGGEGAECg@mAEWCUR_EBs@F}@@YGQRcFHeC@YVcGHiBBs@@a@Ds@FQ?KBw@Ba@HaB@M?I@WHyAFsAJoBDw@FsA@WBaAH{BFyADw@BeAFuA@WFmB@Y@YFsABo@DiA?I?ILuC@e@Bg@D}@J{CBe@DkAH_CDwA@WCi@S[KM{A}Ag@i@WWMMc@a@c@g@i@i@i@i@q@q@]a@qAuAuAwAc@a@m@m@q@s@oAsAa@]MOQOe@g@Sa@IYGUE]A]LeBBg@Dq@Do@Di@Dg@BYJmAFoADm@Bi@LcBBa@@IFm@HuAHgA@]Fs@L_CFq@Dc@JcB@ORuCP}CF}@L}A@UXmEL_B@M@IHsAHiBHiAGg@Uq@Oa@[gAW}@a@uAm@qBGS]mAWy@_@qAE_@@[VaB\\uBNcAD]JkBDkABmABi@@YFuBDmA@a@Bu@D{@FgB?MDmA@[DeAB}@Bm@DaADkABw@FyAD{ADeABw@GM@]MAe@AmAA_AAI?sCEoBEQAa@?k@CgB?{@AW?]?SAHeAXcDBUVgBHc@T_BT}ATsA@QTsAXmB~ABnEJHmBHq@RqBBWNmAFk@Rk@Rg@\\y@l@mBiA[a@So@a@ECi@~B",
+          "encodedPolylinePrecision": 5
+        }
+      ],
+      "sections": [
+        {
+          "startPointIndex": 0,
+          "endPointIndex": 315,
+          "sectionType": "TRAVEL_MODE",
+          "travelMode": "car"
+        }
+      ]
+    }
+  ]
+}
