@@ -3,6 +3,7 @@ import sys
 import utils
 import random 
 import time
+from datetime import datetime
 
 def main():
     parser = argparse.ArgumentParser(description="Route scraping tool")
@@ -58,7 +59,7 @@ def main():
 
 
     org, des = None, None
-
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 
     if args.api_type == "mapbox": 
         from mapbox_api import MapboxRouteFinder
@@ -91,7 +92,7 @@ def main():
             if data is None:
                 print("Failed to get route data from Mapbox API")
                 continue
-            utils.process_mapbox_routes(data)
+            utils.process_mapbox_routes(data, f"data/hcm/trips_{timestamp}.csv")
 
             # Simulate delay to avoid hitting rate limits
             delay = random.uniform(0.5, 1.5)
@@ -127,7 +128,7 @@ def main():
                 print("Failed to get route data from TomTom API")
                 continue
 
-            utils.process_tomtom_routes(data)
+            utils.process_tomtom_routes(data, f"data/hcm/trips_{timestamp}.csv")
 
             delay = random.uniform(0.5, 1.5)
             time.sleep(delay)
