@@ -45,8 +45,8 @@ def get_random_od():
     origin_coords = [origin['lat'], origin['lon']]
     destination_coords = [destination['lat'], destination['lon']]
 
-    print(f"Origin: {origin['name']} at {origin_coords}")
-    print(f"Destination: {destination['name']} at {destination_coords}")
+    # print(f"Origin: {origin['name']} at {origin_coords}")
+    # print(f"Destination: {destination['name']} at {destination_coords}")
 
     return origin_coords, destination_coords
 
@@ -166,8 +166,6 @@ def process_mapbox_routes(mapbox_data, csv_file="data/hcm/trips.csv", counter_fi
 
                 processed_routes.append(processed_route)
 
-                print(f"Trip {trip_id} appended to CSV")
-
     except Exception as e:
         print(f"Error writing to CSV: {e}")
 
@@ -227,6 +225,93 @@ def get_od(od_type):
     elif od_type == "specific":
         #TODO
         print("")
+
+import os
+import csv
+import time
+import pickle
+import polyline  # For decoding encoded polyline from TomTom (precision = 5)
+
+def process_tomtom_routes(tomtom_data, csv_file="data/hcm/trips.csv", counter_file="data/pickle_data/trip_counter.pkl"):
+    """
+    Process TomTom API response to extract routes, decode geometry, and store them in a CSV file.
+    
+    Args:
+        tomtom_data (dict): TomTom API response JSON
+        csv_file (str): Output path for CSV file
+        counter_file (str): Pickle file to track trip_id counter
+    
+    Returns:
+        list: List of processed route dictionaries
+    """
+    # Load or initialize trip ID counter
+    if os.path.exists(counter_file):
+        try:
+            with open(counter_file, "rb") as f:
+                trip_counter = pickle.load(f)
+        except Exception as e:
+            print(f"⚠️ Error loading counter file: {e}. Starting new counter.")
+            trip_counter = 0
+    else:
+        trip_counter = 0
+
+    current_timestamp = int(time.time())
+    processed_routes = []
+
+    write_header = not os.path.exists(csv_file) or os.path.getsize(csv_file) == 0
+
+    try:
+        with open(csv_file, mode='a', newline='', encoding='utf-8') as csvfile:
+            writer = csv.writer(csvfile)
+
+            if write_header:
+                writer.writerow(["trip_id", "timestamp", "distance", "duration", "geometry"])
+
+            for route in tomtom_data.get("routes", []):
+                trip_counter += 1
+                trip_id = trip_counter
+
+                # Extract encoded polyline from the first leg
+                try:
+                    leg = route["legs"][0]
+                    geometry = leg.get("encodedPolyline", "")
+                    coordinates = polyline.decode(geometry, precision=5)
+                    linestring = "LINESTRING (" + ", ".join(
+                        f"{lon} {lat}" for lat, lon in coordinates
+                    ) + ")"
+                except Exception as e:
+                    print(f"Error decoding geometry for trip {trip_id}: {e}")
+                    linestring = ""
+
+                processed_route = {
+                    "trip_id": trip_id,
+                    "timestamp": current_timestamp,
+                    "distance": route.get("summary", {}).get("lengthInMeters", 0.0),
+                    "duration": route.get("summary", {}).get("travelTimeInSeconds", 0.0),
+                    "geometry": linestring
+                }
+
+                writer.writerow([
+                    processed_route["trip_id"],
+                    processed_route["timestamp"],
+                    processed_route["distance"],
+                    processed_route["duration"],
+                    processed_route["geometry"]
+                ])
+
+                processed_routes.append(processed_route)
+
+    except Exception as e:
+        print(f"Error writing to CSV: {e}")
+
+    # Save counter
+    try:
+        with open(counter_file, "wb") as f:
+            pickle.dump(trip_counter, f)
+    except Exception as e:
+        print(f"Error saving counter file: {e}")
+
+    return processed_routes
 
 
 

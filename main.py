@@ -98,5 +98,40 @@ def main():
             time.sleep(delay)
             print(f"Calling Mapbox API for route {_ + 1}")
     
+    elif args.api_type == "tomtom":
+        from tomtom_api import TomTomRouteFinder
+
+        tomtom = TomTomRouteFinder()
+        remaining = tomtom.get_remaining_requests()
+
+        if args.num_route == "schedule":
+            print("TODO: Scheduled scraping mode not implemented yet")
+            return
+        
+        try:
+            num = int(args.num_route)
+        except ValueError:
+            print("num_route must be an integer or 'schedule'")
+            sys.exit(1)
+
+        if num > remaining:
+            print(f"Not enough request quota left. Requested: {num}, Remaining: {remaining}")
+            sys.exit(1)
+
+        print(f"Proceeding to scrape {num} routes using TomTom API...")
+
+        for i in range(num):
+            org, des = utils.get_od(args.scrape_mode)
+            data = tomtom.get_route_json(org, des)
+            if data is None:
+                print("Failed to get route data from TomTom API")
+                continue
+
+            utils.process_tomtom_routes(data)
+
+            delay = random.uniform(0.5, 1.5)
+            time.sleep(delay)
+            print(f"TomTom route {i + 1} processed")
+    
 if __name__ == "__main__":
     main()
